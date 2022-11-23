@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+#footer {
+    background: rgb(188, 185, 185);
+    color: black;
+    margin-top: auto;
+    padding: 2em;
+    text-align: center;
+}
+
+ 
