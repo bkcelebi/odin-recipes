@@ -10,6 +10,17 @@ body {
     min-height: 100%;
 }
 
+#cards-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#cards-kids {
+    flex: 0 1 350px;
+    margin: 10px;
+}
+
 #footer {
     background: rgb(188, 185, 185);
     color: black;
@@ -18,4 +29,57 @@ body {
     text-align: center;
 }
 
- 
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+}
+
+div.image, div.header {
+    background: rgb(237, 252, 251);
+}
+
+.image {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+
+.main-content {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 8%;
+}
+
+p, h2{
+    text-align: center;
+    
+}
+
+h2 {
+    margin: 4% 0 3% 0;
+}
+
+div.ingredients-steps{
+    padding: 0 5% 5% 5%;
+    display: flex;
+    flex-direction: row;
+    background: rgb(251, 248, 244)
+}
+
+div.first-column{
+    padding-top: 40%;
+}
+
+div.second-column{
+    padding-top: 5%;
+}
+
+div#first-column-chick{
+    padding-top: 10%;
+}
+
+div.first-box{
+    margin-right: 5%;
+}
