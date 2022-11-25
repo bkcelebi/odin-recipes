@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    font-family: "Times New Roman";
 }
 
 #cards-parent {
@@ -52,7 +53,8 @@ div.image, div.header {
     margin-bottom: 8%;
 }
 
-p, h2{
+p, 
+h2{
     text-align: center;
     
 }
@@ -67,18 +69,6 @@ div.ingredients-steps{
     display: flex;
     flex-direction: row;
     background: rgb(251, 248, 244)
-}
-
-div.first-column{
-    padding-top: 40%;
-}
-
-div.second-column{
-    padding-top: 5%;
-}
-
-div#first-column-chick{
-    padding-top: 10%;
 }
 
 div.first-box{
